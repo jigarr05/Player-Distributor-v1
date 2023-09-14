@@ -1,0 +1,141 @@
+
+* {box-sizing: border-box;}
+
+body {
+  background-image: linear-gradient(#159957, #155799);
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: auto;
+  
+}
+
+@media screen and (min-width: 280px) and (max-width: 786px) {
+
+  /* Utility */
+  body {
+    color: darkslategray;
+    font-family: 'Heebo', sans-serif;
+  }
+
+  .hidden { display: none; }
+
+  header {
+   width: 100%; 
+  }
+
+  
+  h1 {
+    /* padding: 20px 0; */
+    text-align: center;
+    color: rgba(255, 255, 255, 0.925);
+  }  
+  
+
+  .player-input {
+    width: 100%;
+    padding: 15px 0;
+  }
+
+  
+  .player-names {
+    padding: 7.3px;
+    width: 80%;
+    border-radius: 5px;
+    border:none;
+  }
+
+  .btn {
+    border: none; 
+    border-radius: 5.5px;
+    background-color: aquamarine;
+    color: black;
+    font-family: 'Heebo', sans-serif;
+  }
+
+  .enter {
+    padding: 5px 0;
+    width: 18.9%;    
+  }
+
+  
+  .player-playing {
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 10px;
+    color: rgb(74, 74, 74);
+    width: 100%;
+    min-height: 200px;
+    padding: 5px;
+    margin-bottom: 20px;
+    box-shadow: 2px 2px 5px #5a5a5a;
+  }
+
+  .heading-players {
+    text-align: center;
+  }
+
+
+  .list {
+    width: 90%;
+    list-style-type: none;
+    /* background-color: antiquewhite  ; */
+    color: #4d4d4d;
+    margin: 10px 0;
+    letter-spacing: 1.5px;
+    font-weight: bold;
+    font-size: 20px;
+  }
+
+
+  .generate {
+    width: 100%;
+  }
+
+  .btn-generate {
+    margin-bottom: 20px;
+    width: 100%;
+    padding: 10px;
+
+  }
+
+  .team-1 {
+    width: 100%;
+    padding: 5px 20px;
+    color: #159957;
+    border-radius: 10px;
+    margin-bottom: 20px;
+  }
+
+  .team-1 h2 {
+    text-align: center;
+  }
+
+  .player {
+    margin-bottom: 10px;
+    font-weight: bold;
+    font-size: 20px;
+  }
+
+  .team-2 {
+    width: 100%;
+    padding: 5px 20px;
+    
+    color: #155799;
+    border-radius: 10px;
+    margin-bottom: 20px;
+  }
+
+  .team-2 h2 {
+    text-align: center;
+  }
+
+  .teams {
+    min-height: 200px;
+    background-color: rgba(255, 255, 255, 0.8);
+  }
+
+  .again {
+    padding: 10px; 
+    width: 100%;
+  }
+
+} /* Last line*/
